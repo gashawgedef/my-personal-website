@@ -149,7 +149,6 @@ body{
   padding: 20px;
   margin: 10px;
   transition: transform 0.2s ease-in;
-  
 }
 .card:hover{
     transform: translateY(-10px);
