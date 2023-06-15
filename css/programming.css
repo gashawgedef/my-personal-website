@@ -17,3 +17,21 @@ margin-top: 20px;
     font-weight: normal;
     margin: 20px 0;
 }
+.card-containers{
+    display: flex;
+}
+.card-containers .card{
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+.card-containers .card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card-containers .card:hover{
+    transform: translateY(-15px);
+}
+.progrmming .card-containers {
+    flex-wrap: wrap;
+}

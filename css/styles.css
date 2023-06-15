@@ -133,6 +133,11 @@ body{
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 10px;
+  transition: transform 0.2s ease-in;
+  
+}
+.card:hover{
+    transform: translateY(-10px);
 }
 .services .btn-services{
     border: dodgerblue 1px solid;
