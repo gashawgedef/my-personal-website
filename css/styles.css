@@ -124,9 +124,15 @@ body{
     line-height: 1.5;
 }
 .card{
-    border-radius: 5px;
+    /* border-radius: 5px;
     
-    padding: 20px;
+    padding: 20px; */
+    background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
 }
 .services .btn-services{
     border: dodgerblue 1px solid;
