@@ -33,6 +33,9 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+.navbar .flex-nav{
+    flex-wrap: wrap;
+}
 .navbar ul{
     display: flex;
     justify-content: center;
@@ -62,9 +65,7 @@ body{
 .header img{
     max-width: 400px;
 }
-.header-image{
-   
-}
+
  .header .my-about{
     display: flex; 
     justify-content: space-between;
@@ -88,8 +89,15 @@ body{
     background-color: cornflowerblue;
     border-radius: 5px;
     border: none;
-}
+} 
 /*Services Section*/
+.header .container{
+    display: flex;
+}
+.header img{
+    max-width: 400px;
+}
+
 .services{
     background-color: #F5F5F5;
 }
@@ -115,6 +123,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.services .services-section{
+    flex-wrap: wrap;
+}
+.services .card-containers{
+    flex-wrap: wrap;
 }
 .services .card h2{
     font-size: 25px;
